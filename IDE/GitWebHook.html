@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>GitWebHook | Bajins</title>
+    <meta name="generator" content="VuePress 1.5.2">
+    <link rel="icon" href="/images/icons/logo.png">
+    <link rel="apple-touch-icon" href="/images/icons/logo.png">
+    <link rel="manifest" href="/manifest.json">
+    <script type="text/javascript" src="/assets/js/load.js"></script>
+    <meta name="description" content="个人笔记">
+    <meta name="theme-color" content="#3eaf7c">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="msapplication-TileImage" content="/images/icons/logo.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="keywords" content="bajins,vue,vuepress,vuepress-theme,theme,主题,vuepress主题,blog,vuepress-blog,java,python,shell,sql,golang,script,shell script,nginx,windows,去广告,androd,google drive,one drive,idea,eclipse,git,小程序">
+    <meta name="referrer" content="never">
+    <link rel="preload" href="/assets/css/0.styles.1c2a1302.css" as="style"><link rel="preload" href="/assets/js/app.882799db.js" as="script"><link rel="preload" href="/assets/js/4.4be05e4b.js" as="script"><link rel="preload" href="/assets/js/1.c0629044.js" as="script"><link rel="preload" href="/assets/js/21.6b80e7c1.js" as="script"><link rel="preload" href="/assets/js/10.cbb2ab2f.js" as="script"><link rel="prefetch" href="/assets/js/11.9dd46fa3.js"><link rel="prefetch" href="/assets/js/12.5350c635.js"><link rel="prefetch" href="/assets/js/13.186e52cc.js"><link rel="prefetch" href="/assets/js/14.2a2f8919.js"><link rel="prefetch" href="/assets/js/15.c1988659.js"><link rel="prefetch" href="/assets/js/16.23792a4b.js"><link rel="prefetch" href="/assets/js/17.a669610e.js"><link rel="prefetch" href="/assets/js/18.0fecd2ea.js"><link rel="prefetch" href="/assets/js/19.06d8ac93.js"><link rel="prefetch" href="/assets/js/20.62a40f9a.js"><link rel="prefetch" href="/assets/js/22.4c2694e2.js"><link rel="prefetch" href="/assets/js/23.55577e33.js"><link rel="prefetch" href="/assets/js/24.c37a9554.js"><link rel="prefetch" href="/assets/js/25.f9694db7.js"><link rel="prefetch" href="/assets/js/26.68f56a9d.js"><link rel="prefetch" href="/assets/js/27.23e37cdc.js"><link rel="prefetch" href="/assets/js/28.054a2bc1.js"><link rel="prefetch" href="/assets/js/29.b54b6fe4.js"><link rel="prefetch" href="/assets/js/30.9c3b76cc.js"><link rel="prefetch" href="/assets/js/31.3fa8fff3.js"><link rel="prefetch" href="/assets/js/32.18bcf5a4.js"><link rel="prefetch" href="/assets/js/33.c5984a5e.js"><link rel="prefetch" href="/assets/js/34.076cbeed.js"><link rel="prefetch" href="/assets/js/35.866fe656.js"><link rel="prefetch" href="/assets/js/36.46e0f5fc.js"><link rel="prefetch" href="/assets/js/37.0549245a.js"><link rel="prefetch" href="/assets/js/38.084387e2.js"><link rel="prefetch" href="/assets/js/39.3e6e21b2.js"><link rel="prefetch" href="/assets/js/40.220ba90a.js"><link rel="prefetch" href="/assets/js/41.062a6e87.js"><link rel="prefetch" href="/assets/js/42.9a8877f4.js"><link rel="prefetch" href="/assets/js/43.8f8da669.js"><link rel="prefetch" href="/assets/js/44.9c3cd3dc.js"><link rel="prefetch" href="/assets/js/45.5482a570.js"><link rel="prefetch" href="/assets/js/46.14b6ab9f.js"><link rel="prefetch" href="/assets/js/47.39be1138.js"><link rel="prefetch" href="/assets/js/48.ecd2c284.js"><link rel="prefetch" href="/assets/js/49.78e79664.js"><link rel="prefetch" href="/assets/js/5.dd149aed.js"><link rel="prefetch" href="/assets/js/50.c1544892.js"><link rel="prefetch" href="/assets/js/51.b987c593.js"><link rel="prefetch" href="/assets/js/52.19cccbc3.js"><link rel="prefetch" href="/assets/js/53.a87d5a0c.js"><link rel="prefetch" href="/assets/js/54.a8f6edb2.js"><link rel="prefetch" href="/assets/js/55.577d26e2.js"><link rel="prefetch" href="/assets/js/56.7e201ec6.js"><link rel="prefetch" href="/assets/js/57.b74353de.js"><link rel="prefetch" href="/assets/js/58.16a5597b.js"><link rel="prefetch" href="/assets/js/59.393de004.js"><link rel="prefetch" href="/assets/js/6.11636d6b.js"><link rel="prefetch" href="/assets/js/60.c887ca17.js"><link rel="prefetch" href="/assets/js/61.3870163c.js"><link rel="prefetch" href="/assets/js/62.f9305f47.js"><link rel="prefetch" href="/assets/js/63.2813d617.js"><link rel="prefetch" href="/assets/js/64.8900e995.js"><link rel="prefetch" href="/assets/js/65.59336d0b.js"><link rel="prefetch" href="/assets/js/66.8f08caa3.js"><link rel="prefetch" href="/assets/js/67.d3500ca1.js"><link rel="prefetch" href="/assets/js/68.b1ba08d7.js"><link rel="prefetch" href="/assets/js/69.7bb0fac7.js"><link rel="prefetch" href="/assets/js/7.c3177b6c.js"><link rel="prefetch" href="/assets/js/70.b01f0467.js"><link rel="prefetch" href="/assets/js/71.7143e14e.js"><link rel="prefetch" href="/assets/js/72.359c21df.js"><link rel="prefetch" href="/assets/js/73.bac78a89.js"><link rel="prefetch" href="/assets/js/74.f15370d1.js"><link rel="prefetch" href="/assets/js/75.612d2512.js"><link rel="prefetch" href="/assets/js/76.35e94f17.js"><link rel="prefetch" href="/assets/js/77.29751715.js"><link rel="prefetch" href="/assets/js/78.48c24f20.js"><link rel="prefetch" href="/assets/js/79.5866e5e2.js"><link rel="prefetch" href="/assets/js/8.ee675757.js"><link rel="prefetch" href="/assets/js/80.ee2647b1.js"><link rel="prefetch" href="/assets/js/81.e15547f5.js"><link rel="prefetch" href="/assets/js/82.b152e181.js"><link rel="prefetch" href="/assets/js/83.efc0cad7.js"><link rel="prefetch" href="/assets/js/9.3f4c111d.js"><link rel="prefetch" href="/assets/js/vendors~flowchart.d4176320.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.1c2a1302.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container" data-v-19557b78><div data-v-19557b78><div id="loader-wrapper" class="loading-wrapper" data-v-d48f4d20 data-v-19557b78 data-v-19557b78><div class="loader-main" data-v-d48f4d20><div data-v-d48f4d20></div><div data-v-d48f4d20></div><div data-v-d48f4d20></div><div data-v-d48f4d20></div></div> <!----> <!----></div> <div class="password-shadow password-wrapper-out" style="display:none;" data-v-64685f0e data-v-19557b78 data-v-19557b78><h3 class="title" style="display:none;" data-v-64685f0e data-v-64685f0e>Bajins</h3> <!----> <label id="box" class="inputBox" style="display:none;" data-v-64685f0e data-v-64685f0e><input type="password" value="" data-v-64685f0e> <span data-v-64685f0e>Konck! Knock!</span> <button data-v-64685f0e>OK</button></label> <div class="footer" style="display:none;" data-v-64685f0e data-v-64685f0e><span data-v-64685f0e><i class="iconfont reco-theme" data-v-64685f0e></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-64685f0e>vuePress-theme-reco</a></span> <span data-v-64685f0e><i class="iconfont reco-copyright" data-v-64685f0e></i> <a data-v-64685f0e><span data-v-64685f0e>Bajins</span>
+            
+          <!---->
+          2020
+        </a></span></div></div> <div class="hide" data-v-19557b78><header class="navbar" data-v-19557b78><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/images/icons/logo.png" alt="Bajins" class="logo"> <span class="site-name">Bajins</span></a> <div class="links"><div class="color-picker"><a class="color-button"><i class="iconfont reco-color"></i></a> <div class="color-picker-menu" style="display:none;"><div class="mode-options"><h4 class="title">Choose mode</h4> <ul class="color-mode-options"><li class="dark">dark</li><li class="auto active">auto</li><li class="light">light</li></ul></div></div></div> <div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/Go/" class="nav-link"><i class="iconfont undefined"></i>
+  Go
+</a></div><div class="nav-item"><a href="/IDE/" class="nav-link router-link-active"><i class="iconfont undefined"></i>
+  IDE
+</a></div><div class="nav-item"><a href="/Java/" class="nav-link"><i class="iconfont undefined"></i>
+  Java
+</a></div><div class="nav-item"><a href="/Other/" class="nav-link"><i class="iconfont undefined"></i>
+  Other
+</a></div><div class="nav-item"><a href="/SQL/" class="nav-link"><i class="iconfont undefined"></i>
+  SQL
+</a></div><div class="nav-item"><a href="/Shell/" class="nav-link"><i class="iconfont undefined"></i>
+  Shell
+</a></div><div class="nav-item"><a href="/System/" class="nav-link"><i class="iconfont undefined"></i>
+  System
+</a></div><div class="nav-item"><a href="/Web/" class="nav-link"><i class="iconfont undefined"></i>
+  Web
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont undefined"></i>
+      更多资源
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4></h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="https://www.woetu.com" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont undefined"></i>
+  WeChat小程序
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://github.com/woytu/tool-gin" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont undefined"></i>
+  获取XShell
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://gd.bajins.com" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont undefined"></i>
+  GoogleDrive
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li><li class="dropdown-item"><h4></h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/files.html" class="nav-link"><i class="iconfont undefined"></i>
+  文件
+</a></li><li class="dropdown-subitem"><a href="/Other/Bookmarks.html" class="nav-link"><i class="iconfont undefined"></i>
+  书签锦集
+</a></li><li class="dropdown-subitem"><a href="/Other/Windows软件.html" class="nav-link"><i class="iconfont undefined"></i>
+  Windows软件
+</a></li><li class="dropdown-subitem"><a href="/Other/Markdown.html#工具" class="nav-link"><i class="iconfont undefined"></i>
+  Markdown工具
+</a></li></ul></li></ul></div></div> <a href="https://github.com/woytu/notes-vuepress" target="_blank" rel="noopener noreferrer" class="repo-link"><i class="iconfont reco-github"></i>
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav></div></header> <div class="sidebar-mask" data-v-19557b78></div> <aside class="sidebar" data-v-19557b78><div class="personal-info-wrapper" data-v-042e23d4><!----> <h3 class="name" data-v-042e23d4>
+    Bajins
+  </h3> <div class="num" data-v-042e23d4><div data-v-042e23d4><h3 data-v-042e23d4>0</h3> <h6 data-v-042e23d4>文章</h6></div> <div data-v-042e23d4><h3 data-v-042e23d4>0</h3> <h6 data-v-042e23d4>标签</h6></div></div> <hr data-v-042e23d4></div> <nav class="nav-links"><div class="nav-item"><a href="/Go/" class="nav-link"><i class="iconfont undefined"></i>
+  Go
+</a></div><div class="nav-item"><a href="/IDE/" class="nav-link router-link-active"><i class="iconfont undefined"></i>
+  IDE
+</a></div><div class="nav-item"><a href="/Java/" class="nav-link"><i class="iconfont undefined"></i>
+  Java
+</a></div><div class="nav-item"><a href="/Other/" class="nav-link"><i class="iconfont undefined"></i>
+  Other
+</a></div><div class="nav-item"><a href="/SQL/" class="nav-link"><i class="iconfont undefined"></i>
+  SQL
+</a></div><div class="nav-item"><a href="/Shell/" class="nav-link"><i class="iconfont undefined"></i>
+  Shell
+</a></div><div class="nav-item"><a href="/System/" class="nav-link"><i class="iconfont undefined"></i>
+  System
+</a></div><div class="nav-item"><a href="/Web/" class="nav-link"><i class="iconfont undefined"></i>
+  Web
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont undefined"></i>
+      更多资源
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4></h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="https://www.woetu.com" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont undefined"></i>
+  WeChat小程序
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://github.com/woytu/tool-gin" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont undefined"></i>
+  获取XShell
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://gd.bajins.com" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont undefined"></i>
+  GoogleDrive
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li><li class="dropdown-item"><h4></h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/files.html" class="nav-link"><i class="iconfont undefined"></i>
+  文件
+</a></li><li class="dropdown-subitem"><a href="/Other/Bookmarks.html" class="nav-link"><i class="iconfont undefined"></i>
+  书签锦集
+</a></li><li class="dropdown-subitem"><a href="/Other/Windows软件.html" class="nav-link"><i class="iconfont undefined"></i>
+  Windows软件
+</a></li><li class="dropdown-subitem"><a href="/Other/Markdown.html#工具" class="nav-link"><i class="iconfont undefined"></i>
+  Markdown工具
+</a></li></ul></li></ul></div></div> <a href="https://github.com/woytu/notes-vuepress" target="_blank" rel="noopener noreferrer" class="repo-link"><i class="iconfont reco-github"></i>
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav>  <ul class="sidebar-links"><li><a href="/IDE/Chrome.html" class="sidebar-link">Chrome</a></li><li><a href="/IDE/Eclipse.html" class="sidebar-link">Eclipse</a></li><li><a href="/IDE/Git.html" class="sidebar-link">Git</a></li><li><a href="/IDE/GitWebHook.html" aria-current="page" class="active sidebar-link">GitWebHook</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/IDE/GitWebHook.html#介绍" class="sidebar-link">介绍</a></li><li class="sidebar-sub-header"><a href="/IDE/GitWebHook.html#配置接收通知" class="sidebar-link">配置接收通知</a></li><li class="sidebar-sub-header"><a href="/IDE/GitWebHook.html#配置webhook" class="sidebar-link">配置WebHook</a></li><li class="sidebar-sub-header"><a href="/IDE/GitWebHook.html#执行脚本" class="sidebar-link">执行脚本</a></li></ul></li><li><a href="/IDE/IDEA使用和插件.html" class="sidebar-link">IDEA使用和插件</a></li><li><a href="/IDE/IDEA设置.html" class="sidebar-link">IDEA设置</a></li><li><a href="/IDE/" aria-current="page" class="sidebar-link">IDE</a></li><li><a href="/IDE/SublimeText.html" class="sidebar-link">SublimeText</a></li><li><a href="/IDE/VSCode.html" class="sidebar-link">VSCode</a></li></ul> </aside> <div class="password-shadow password-wrapper-in" style="display:none;" data-v-64685f0e data-v-19557b78><h3 class="title" style="display:none;" data-v-64685f0e data-v-64685f0e></h3> <!----> <label id="box" class="inputBox" style="display:none;" data-v-64685f0e data-v-64685f0e><input type="password" value="" data-v-64685f0e> <span data-v-64685f0e>Konck! Knock!</span> <button data-v-64685f0e>OK</button></label> <div class="footer" style="display:none;" data-v-64685f0e data-v-64685f0e><span data-v-64685f0e><i class="iconfont reco-theme" data-v-64685f0e></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-64685f0e>vuePress-theme-reco</a></span> <span data-v-64685f0e><i class="iconfont reco-copyright" data-v-64685f0e></i> <a data-v-64685f0e><span data-v-64685f0e>Bajins</span>
+            
+          <!---->
+          2020
+        </a></span></div></div> <div data-v-19557b78><main class="page"><div class="page-title" style="display:none;"><h1>GitWebHook</h1> <hr> <div data-v-34ea29db><i class="iconfont reco-account" data-v-34ea29db><span data-v-34ea29db>Bajins</span></i> <!----> <i class="iconfont reco-eye" data-v-34ea29db><span id="/IDE/GitWebHook.html" data-flag-title="Your Article Title" class="leancloud-visitors" data-v-34ea29db><a class="leancloud-visitors-count" style="font-size:.9rem;font-weight:normal;color:#999;"></a></span></i> <!----></div></div> <div class="theme-reco-content content__default" style="display:none;"><h1 id="gitwebhook"><a href="#gitwebhook" class="header-anchor">#</a> GitWebHook</h1> <p></p><div class="table-of-contents"><ul><li><a href="#介绍">介绍</a></li><li><a href="#配置接收通知">配置接收通知</a><ul><li><a href="#必备环境">必备环境</a></li><li><a href="#宝塔面板">宝塔面板</a></li><li><a href="#netcat-命令">netcat命令</a></li><li><a href="#第三方项目">第三方项目</a></li></ul></li><li><a href="#配置webhook">配置WebHook</a><ul><li><a href="#添加接收通知url">添加接收通知url</a></li><li><a href="#测试推送">测试推送</a></li></ul></li><li><a href="#执行脚本">执行脚本</a><ul><li><a href="#编译并部署到web目录">编译并部署到web目录</a></li><li><a href="#编译并部署到仓库">编译并部署到仓库</a></li></ul></li></ul></div><p></p> <h2 id="介绍"><a href="#介绍" class="header-anchor">#</a> 介绍</h2> <ul><li>手动部署</li></ul> <blockquote><p>Vue项目完成后,执行<code>npm run build</code>,然后将生成的dist目录下的文件放到web目录下</p></blockquote> <ul><li>WebHooks自动化部署,流程如下:</li></ul> <blockquote><p>配置<code>Gitea</code>的<code>WebHook</code>通知(也可以用<code>码云</code>、<code>Github</code>、<code>GitLab</code>、<code>gogs</code>,带<code>WebHook</code>功能就行)</p></blockquote> <blockquote><p>当我们<code>push</code>到仓库时,<code>Gitea</code>会主动发送一个通知到我们的服务器,然后服务器接到通知执行我们部署的脚本,开始自动化构建。</p></blockquote> <h2 id="配置接收通知"><a href="#配置接收通知" class="header-anchor">#</a> 配置接收通知</h2> <h3 id="必备环境"><a href="#必备环境" class="header-anchor">#</a> 必备环境</h3> <ul><li>以下命令视自己的环境而执行</li></ul> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token comment"># git</span>
+yum <span class="token function">install</span> -y <span class="token function">git</span>
+<span class="token comment"># node 由于nodejs自带npm所以就不需要手动安装了</span>
+yum <span class="token function">install</span> -y nodejs
+<span class="token comment"># vue-cli</span>
+<span class="token function">npm</span> <span class="token function">install</span> -g @vue/cli
+</code></pre></div><h3 id="宝塔面板"><a href="#宝塔面板" class="header-anchor">#</a> 宝塔面板</h3> <ul><li>设置宝塔WebHook插件</li></ul> <p><img src="/images/%E5%AE%9D%E5%A1%94WebHook%E8%AE%BE%E7%BD%AE.png" alt=""></p> <ul><li><p>宝塔WebHook获取url</p></li> <li><p>param参数需要和脚本里对应起来,我这里写的是pull</p></li></ul> <blockquote><p><code>http://服务器ip:8888/hook?access_key=5C84B7A5UeXYalfNL6WEpi3jdmmxhFlk3jpvEw02BMo84Ak3&amp;param=pull</code></p></blockquote> <p><img src="/images/%E5%AE%9D%E5%A1%94WebHook%E8%8E%B7%E5%8F%96url.png" alt=""></p> <h3 id="netcat命令"><a href="#netcat命令" class="header-anchor">#</a> <code>netcat</code>命令</h3> <ul><li><a href="https://segmentfault.com/a/1190000016626298" target="_blank" rel="noopener noreferrer">https://segmentfault.com/a/1190000016626298<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul> <ul><li><p>实现监听端口-&gt;响应请求-&gt;执行脚本部署</p></li> <li><p>一直监听 9999 端口，有请求就响应<code>echo</code>的内容，并执行指定脚本</p></li></ul> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token builtin class-name">echo</span> -e <span class="token string">&quot;HTTP/1.1 200 ok,glass<span class="token entity" title="\r">\r</span><span class="token entity" title="\n">\n</span>Connection: close<span class="token entity" title="\r">\r</span><span class="token entity" title="\n">\n</span><span class="token entity" title="\r">\r</span>&quot;</span> <span class="token operator">|</span>  <span class="token function">nc</span> -l <span class="token number">0.0</span>.0.0 <span class="token number">9999</span> <span class="token punctuation">;</span> <span class="token function">sh</span> /home/update.sh <span class="token operator">&gt;&gt;</span> /home/logs/webhook.log <span class="token operator"><span class="token file-descriptor important">2</span>&gt;</span><span class="token file-descriptor important">&amp;1</span>
+</code></pre></div><blockquote><p>通过 systemd，可以将这个脚本管理起来，让它永远重启，这样一次部署之后，马上就可以重新监听，等待下一次部署命令。注意要添加 StartLimitInterval ，限制一下执行的频率。</p></blockquote> <ul><li>最终的<code>systemd service</code>如下</li></ul> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token punctuation">[</span>Unit<span class="token punctuation">]</span>
+<span class="token assign-left variable">Description</span><span class="token operator">=</span>Autopull through webhook
+<span class="token assign-left variable">After</span><span class="token operator">=</span>network.target
+ 
+<span class="token punctuation">[</span>Service<span class="token punctuation">]</span>
+<span class="token assign-left variable">User</span><span class="token operator">=</span>admin
+<span class="token assign-left variable">Type</span><span class="token operator">=</span>simple
+<span class="token assign-left variable">ExecStart</span><span class="token operator">=</span>/bin/bash -xc <span class="token string">'echo -e &quot;HTTP/1.1 200 ok,glass<span class="token entity" title="\r">\r</span><span class="token entity" title="\n">\n</span>Connection: close<span class="token entity" title="\r">\r</span><span class="token entity" title="\n">\n</span><span class="token entity" title="\r">\r</span>&quot; |  nc -l 0.0.0.0 9999 ; sh /home/deploy/update.sh &gt;&gt; /home/logs/webhook.log 2&gt;&amp;1'</span>
+<span class="token assign-left variable">Restart</span><span class="token operator">=</span>always
+<span class="token assign-left variable">StartLimitInterval</span><span class="token operator">=</span>1min
+<span class="token assign-left variable">StartLimitBurst</span><span class="token operator">=</span><span class="token number">60</span>
+ 
+<span class="token punctuation">[</span>Install<span class="token punctuation">]</span>
+<span class="token assign-left variable">WantedBy</span><span class="token operator">=</span>multi-user.target
+</code></pre></div><blockquote><p>这样就可以实现每次向 master push 代码，自动测试成功并且马上推送到测试环境中。 update.sh 脚本的最后可以加一个 Curl 命令向钉钉或者 slack 发送提醒。</p></blockquote> <h3 id="第三方项目"><a href="#第三方项目" class="header-anchor">#</a> 第三方项目</h3> <ul><li><a href="https://github.com/woytu/webhook-go" target="_blank" rel="noopener noreferrer">webhook-go<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li> <li><a href="https://github.com/adnanh/webhook" target="_blank" rel="noopener noreferrer">webhook<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul> <h2 id="配置webhook"><a href="#配置webhook" class="header-anchor">#</a> 配置WebHook</h2> <p><img src="/images/GiteaWebHook%E8%AE%BE%E7%BD%AE.png" alt=""></p> <h3 id="添加接收通知url"><a href="#添加接收通知url" class="header-anchor">#</a> 添加接收通知url</h3> <p><img src="/images/GiteaWebHook%E6%B7%BB%E5%8A%A0.png" alt=""></p> <h3 id="测试推送"><a href="#测试推送" class="header-anchor">#</a> 测试推送</h3> <p><img src="/images/GiteaWebHook%E6%B5%8B%E8%AF%95.png" alt=""></p> <h2 id="执行脚本"><a href="#执行脚本" class="header-anchor">#</a> 执行脚本</h2> <h3 id="编译并部署到web目录"><a href="#编译并部署到web目录" class="header-anchor">#</a> 编译并部署到web目录</h3> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token comment"># pull对应通知url中的param参数（使用$1接收）</span>
+<span class="token keyword">if</span> <span class="token builtin class-name">test</span> <span class="token string">&quot;<span class="token variable">$1</span>&quot;</span> <span class="token operator">!=</span> <span class="token string">&quot;pull&quot;</span><span class="token punctuation">;</span> <span class="token keyword">then</span>
+    <span class="token builtin class-name">echo</span> <span class="token string">&quot;参数不正确&quot;</span>
+    <span class="token builtin class-name">exit</span> <span class="token number">1</span>
+<span class="token keyword">fi</span>
+<span class="token comment"># web目录</span>
+<span class="token assign-left variable">web_dir</span><span class="token operator">=</span>/home/jktz/
+<span class="token comment"># 项目存放目录</span>
+<span class="token assign-left variable">project_dir</span><span class="token operator">=</span>/home/project/
+<span class="token comment"># 项目目录</span>
+<span class="token assign-left variable">project_name</span><span class="token operator">=</span>test
+<span class="token comment"># git远程地址</span>
+<span class="token assign-left variable">git_url</span><span class="token operator">=</span>https://192.168.1.110/woytu/test.git
+<span class="token comment"># 建议创建稳定分支，避免在开发分支上出现不稳定情况</span>
+<span class="token assign-left variable">git_branch</span><span class="token operator">=</span>alpha
+
+<span class="token keyword">if</span> <span class="token punctuation">[</span> <span class="token operator">!</span> -n <span class="token string">&quot;<span class="token variable">$web_dir</span>&quot;</span> <span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token keyword">then</span>
+    <span class="token builtin class-name">echo</span> <span class="token string">&quot;请设置web目录&quot;</span>
+    <span class="token builtin class-name">exit</span> <span class="token number">1</span>
+<span class="token keyword">fi</span>
+
+<span class="token keyword">if</span> <span class="token punctuation">[</span> <span class="token operator">!</span> -n <span class="token string">&quot;<span class="token variable">$project_dir</span>&quot;</span> <span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token keyword">then</span>
+    <span class="token builtin class-name">echo</span> <span class="token string">&quot;请设置项目存放目录&quot;</span>
+    <span class="token builtin class-name">exit</span> <span class="token number">1</span>
+<span class="token keyword">fi</span>
+
+<span class="token keyword">if</span> <span class="token punctuation">[</span> <span class="token operator">!</span> -n <span class="token string">&quot;<span class="token variable">$project_name</span>&quot;</span> <span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token keyword">then</span>
+    <span class="token builtin class-name">echo</span> <span class="token string">&quot;请设置项目名称&quot;</span>
+    <span class="token builtin class-name">exit</span> <span class="token number">1</span>
+<span class="token keyword">fi</span>
+
+<span class="token keyword">if</span> <span class="token punctuation">[</span> <span class="token operator">!</span> -n <span class="token string">&quot;<span class="token variable">$git_url</span>&quot;</span> <span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token keyword">then</span>
+    <span class="token builtin class-name">echo</span> <span class="token string">&quot;请设置git地址&quot;</span>
+    <span class="token builtin class-name">exit</span> <span class="token number">1</span>
+<span class="token keyword">fi</span>
+
+<span class="token keyword">if</span> <span class="token punctuation">[</span> <span class="token operator">!</span> -n <span class="token string">&quot;<span class="token variable">$git_url</span>&quot;</span> <span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token keyword">then</span>
+    <span class="token builtin class-name">echo</span> <span class="token string">&quot;请设置git分支&quot;</span>
+    <span class="token builtin class-name">exit</span> <span class="token number">1</span>
+<span class="token keyword">fi</span>
+
+<span class="token comment"># 判断web目录不存在则退出</span>
+<span class="token keyword">if</span> <span class="token punctuation">[</span> <span class="token operator">!</span> -d <span class="token variable">$web_dir</span> <span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token keyword">then</span>
+    <span class="token builtin class-name">echo</span> <span class="token string">&quot;web目录不存在，请检查&quot;</span>
+    <span class="token builtin class-name">exit</span> <span class="token number">1</span>
+<span class="token keyword">fi</span>
+
+<span class="token comment"># 判断web项目没有可执行权限则授权</span>
+<span class="token keyword">if</span> <span class="token punctuation">[</span> <span class="token operator">!</span> -x <span class="token variable">$web_dir</span> <span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token keyword">then</span>
+    <span class="token comment"># 将当前目录权限赋予给用户</span>
+    <span class="token function">chown</span> -R www:www <span class="token variable">$web_dir</span>
+
+    <span class="token comment"># 设置读写权限</span>
+    <span class="token function">chmod</span> -R <span class="token number">755</span> <span class="token variable">$web_dir</span>
+<span class="token keyword">fi</span>
+
+<span class="token comment"># 判断项目存放目录不存在则创建</span>
+<span class="token keyword">if</span> <span class="token punctuation">[</span> <span class="token operator">!</span> -d <span class="token variable">$project_dir</span> <span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token keyword">then</span>
+    <span class="token function">mkdir</span> <span class="token variable">$project_dir</span>
+<span class="token keyword">fi</span>
+
+<span class="token comment"># 判断项目存放目录没有可执行权限则授权</span>
+<span class="token keyword">if</span> <span class="token punctuation">[</span> <span class="token operator">!</span> -x <span class="token variable">$project_dir</span> <span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token keyword">then</span>
+    <span class="token comment"># 将当前目录权限赋予给用户</span>
+    <span class="token function">chown</span> -R www:www <span class="token variable">$project_dir</span>
+
+    <span class="token comment"># 设置读写权限</span>
+    <span class="token function">chmod</span> -R <span class="token number">755</span> <span class="token variable">$project_dir</span>
+<span class="token keyword">fi</span>
+
+<span class="token builtin class-name">cd</span> <span class="token variable">$project_dir</span>
+
+<span class="token comment"># 判断项目不存在则克隆下来</span>
+<span class="token keyword">if</span> <span class="token punctuation">[</span> <span class="token operator">!</span> -d <span class="token variable">$project_dir</span>/<span class="token variable">$project_name</span> <span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token keyword">then</span>
+    <span class="token comment"># 克隆项目的指定分支到指定项目名</span>
+    <span class="token function">git</span> clone -b <span class="token variable">$git_branch</span> <span class="token variable">$git_url</span> <span class="token variable">$project_name</span>
+<span class="token keyword">fi</span>
+
+<span class="token comment"># 判断项目目录不存在则克隆失败</span>
+<span class="token keyword">if</span> <span class="token punctuation">[</span> <span class="token operator">!</span> -d <span class="token variable">$project_dir</span>/<span class="token variable">$project_name</span> <span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token keyword">then</span>
+    <span class="token builtin class-name">echo</span> <span class="token string">&quot;克隆项目失败&quot;</span>
+    <span class="token builtin class-name">exit</span> <span class="token number">1</span>
+<span class="token keyword">fi</span>
+
+<span class="token comment"># 先cd到我们的项目目录下,git clone的目录</span>
+<span class="token builtin class-name">cd</span> <span class="token variable">$project_dir</span>/<span class="token variable">$project_name</span>
+
+<span class="token comment"># 判断分支是否存在</span>
+<span class="token assign-left variable">branch</span><span class="token operator">=</span><span class="token variable"><span class="token variable">$(</span><span class="token function">git</span> branch <span class="token operator">|</span> <span class="token function">grep</span> $git_branch<span class="token variable">)</span></span>
+<span class="token keyword">if</span> <span class="token punctuation">[</span> <span class="token operator">!</span> -n <span class="token string">&quot;<span class="token variable">$branch</span>&quot;</span> <span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token keyword">then</span>
+    <span class="token builtin class-name">echo</span> <span class="token string">&quot;项目分支<span class="token variable">$git_branch</span>不存在&quot;</span>
+    <span class="token builtin class-name">exit</span> <span class="token number">1</span>
+<span class="token keyword">fi</span>
+
+<span class="token comment"># 从远程下载最新的，而不尝试合并或rebase任何东西</span>
+<span class="token function">git</span> fetch --all
+
+<span class="token comment"># 比较远端和本地分支</span>
+<span class="token assign-left variable">is_up</span><span class="token operator">=</span><span class="token variable"><span class="token variable">$(</span><span class="token function">git</span> <span class="token function">diff</span> $git_branch origin/$git_branch<span class="token variable">)</span></span>
+<span class="token comment"># 获取项目克隆时间</span>
+<span class="token assign-left variable">a</span><span class="token operator">=</span><span class="token variable"><span class="token variable">$(</span><span class="token function">stat</span> -c %Y $project_dir/$project_name/<span class="token variable">)</span></span>
+<span class="token comment"># 获取当前时间</span>
+<span class="token assign-left variable">b</span><span class="token operator">=</span><span class="token variable"><span class="token variable">$(</span><span class="token function">date</span> +%s<span class="token variable">)</span></span>
+<span class="token comment"># 如果项目克隆时间超过一分钟并且分支没有更新</span>
+<span class="token keyword">if</span> <span class="token punctuation">[</span> <span class="token variable"><span class="token variable">$((</span>$b <span class="token operator">-</span> $a<span class="token variable">))</span></span> -gt <span class="token number">60</span> <span class="token punctuation">]</span> <span class="token operator">&amp;&amp;</span> <span class="token punctuation">[</span> <span class="token operator">!</span> -n <span class="token string">&quot;<span class="token variable">$is_up</span>&quot;</span> <span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token keyword">then</span>
+    <span class="token builtin class-name">echo</span> <span class="token string">&quot;分支<span class="token variable">$git_branch</span>没有更新&quot;</span>
+    <span class="token builtin class-name">exit</span> <span class="token number">1</span>
+<span class="token keyword">fi</span>
+
+<span class="token comment"># reset将主分支重置为您刚刚获取的内容。</span>
+<span class="token comment"># --hard选项更改工作树中的所有文件以匹配origin/&lt;branch_name&gt;中的文件</span>
+<span class="token comment"># 避免脚本执行时修改了本地代码导致pull不下来</span>
+<span class="token function">git</span> reset --hard origin/<span class="token variable">$git_branch</span>
+
+<span class="token comment"># 执行pull命令拉取最新的代码</span>
+<span class="token function">git</span> pull origin <span class="token variable">$git_branch</span>
+
+<span class="token comment"># 安装依赖</span>
+<span class="token function">npm</span> <span class="token function">install</span>
+<span class="token comment"># 构建Vue项目</span>
+<span class="token function">npm</span> run build
+
+<span class="token comment"># 删除web目录下的文件</span>
+<span class="token function">rm</span> -rf <span class="token variable">$web_dir</span>/*
+
+<span class="token comment"># 移动打包好的文件到web目录下</span>
+<span class="token function">mv</span> <span class="token variable">$project_dir</span>/<span class="token variable">$project_name</span>/dist/* <span class="token variable">$web_dir</span>
+
+</code></pre></div><h3 id="编译并部署到仓库"><a href="#编译并部署到仓库" class="header-anchor">#</a> 编译并部署到仓库</h3> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token comment"># -e 执行命令出现错误就退出</span>
+<span class="token comment">#!/bin/bash -e</span>
+
+<span class="token comment"># pull对应通知url中的param参数（使用$1接收）</span>
+<span class="token keyword">if</span> <span class="token builtin class-name">test</span> <span class="token string">&quot;<span class="token variable">$1</span>&quot;</span> <span class="token operator">!=</span> <span class="token string">&quot;pull&quot;</span><span class="token punctuation">;</span> <span class="token keyword">then</span>
+    <span class="token builtin class-name">echo</span> <span class="token string">&quot;参数不正确&quot;</span>
+    <span class="token builtin class-name">exit</span> <span class="token number">1</span>
+<span class="token keyword">fi</span>
+
+<span class="token comment"># 项目存放目录</span>
+<span class="token assign-left variable">project_dir</span><span class="token operator">=</span>/home/
+<span class="token comment"># 项目名</span>
+<span class="token assign-left variable">project_name</span><span class="token operator">=</span>notes-vuepress
+<span class="token comment"># git远程地址</span>
+<span class="token assign-left variable">git_url</span><span class="token operator">=</span>https://github.com/woytu/notes-vuepress.git
+<span class="token comment"># 建议创建稳定分支，避免在开发分支上出现不稳定情况</span>
+<span class="token assign-left variable">git_branch</span><span class="token operator">=</span>master
+<span class="token comment"># 推送地址</span>
+<span class="token assign-left variable">push_url</span><span class="token operator">=</span>https://github.com/woytu/woytu.github.io.git
+<span class="token comment"># 推送用户邮箱</span>
+<span class="token assign-left variable">push_user_email</span><span class="token operator">=</span>user@example.com
+<span class="token comment"># 推送用户</span>
+<span class="token assign-left variable">push_username</span><span class="token operator">=</span>user
+<span class="token comment"># 推送密码</span>
+<span class="token assign-left variable">push_password</span><span class="token operator">=</span>password
+
+<span class="token keyword">if</span> <span class="token punctuation">[</span> <span class="token operator">!</span> -n <span class="token string">&quot;<span class="token variable">$project_dir</span>&quot;</span> <span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token keyword">then</span>
+    <span class="token builtin class-name">echo</span> <span class="token string">&quot;请设置项目存放目录&quot;</span>
+    <span class="token builtin class-name">exit</span> <span class="token number">1</span>
+<span class="token keyword">fi</span>
+
+<span class="token keyword">if</span> <span class="token punctuation">[</span> <span class="token operator">!</span> -n <span class="token string">&quot;<span class="token variable">$project_name</span>&quot;</span> <span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token keyword">then</span>
+    <span class="token builtin class-name">echo</span> <span class="token string">&quot;请设置项目名称&quot;</span>
+    <span class="token builtin class-name">exit</span> <span class="token number">1</span>
+<span class="token keyword">fi</span>
+
+<span class="token keyword">if</span> <span class="token punctuation">[</span> <span class="token operator">!</span> -n <span class="token string">&quot;<span class="token variable">$git_url</span>&quot;</span> <span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token keyword">then</span>
+    <span class="token builtin class-name">echo</span> <span class="token string">&quot;请设置Git地址&quot;</span>
+    <span class="token builtin class-name">exit</span> <span class="token number">1</span>
+<span class="token keyword">fi</span>
+
+<span class="token keyword">if</span> <span class="token punctuation">[</span> <span class="token operator">!</span> -n <span class="token string">&quot;<span class="token variable">$git_branch</span>&quot;</span> <span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token keyword">then</span>
+    <span class="token builtin class-name">echo</span> <span class="token string">&quot;请设置Git分支&quot;</span>
+    <span class="token builtin class-name">exit</span> <span class="token number">1</span>
+<span class="token keyword">fi</span>
+
+<span class="token keyword">if</span> <span class="token punctuation">[</span> <span class="token operator">!</span> -n <span class="token string">&quot;<span class="token variable">$push_url</span>&quot;</span> <span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token keyword">then</span>
+    <span class="token builtin class-name">echo</span> <span class="token string">&quot;请设置Git推送地址&quot;</span>
+    <span class="token builtin class-name">exit</span> <span class="token number">1</span>
+<span class="token keyword">fi</span>
+
+<span class="token keyword">if</span> <span class="token punctuation">[</span> <span class="token operator">!</span> -n <span class="token string">&quot;<span class="token variable">$push_user_email</span>&quot;</span> <span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token keyword">then</span>
+    <span class="token builtin class-name">echo</span> <span class="token string">&quot;请设置Git推送用户邮箱&quot;</span>
+    <span class="token builtin class-name">exit</span> <span class="token number">1</span>
+<span class="token keyword">fi</span>
+
+<span class="token keyword">if</span> <span class="token punctuation">[</span> <span class="token operator">!</span> -n <span class="token string">&quot;<span class="token variable">$push_username</span>&quot;</span> <span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token keyword">then</span>
+    <span class="token builtin class-name">echo</span> <span class="token string">&quot;请设置Git推送用户名&quot;</span>
+    <span class="token builtin class-name">exit</span> <span class="token number">1</span>
+<span class="token keyword">fi</span>
+
+<span class="token keyword">if</span> <span class="token punctuation">[</span> <span class="token operator">!</span> -n <span class="token string">&quot;<span class="token variable">$push_password</span>&quot;</span> <span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token keyword">then</span>
+    <span class="token builtin class-name">echo</span> <span class="token string">&quot;请设置Git推送密码&quot;</span>
+    <span class="token builtin class-name">exit</span> <span class="token number">1</span>
+<span class="token keyword">fi</span>
+
+<span class="token comment"># 判断项目存放目录不存在则创建</span>
+<span class="token keyword">if</span> <span class="token punctuation">[</span> <span class="token operator">!</span> -d <span class="token variable">$project_dir</span> <span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token keyword">then</span>
+    <span class="token function">mkdir</span> <span class="token variable">$project_dir</span>
+<span class="token keyword">fi</span>
+
+<span class="token comment"># 判断项目存放目录没有可执行权限则授权</span>
+<span class="token keyword">if</span> <span class="token punctuation">[</span> <span class="token operator">!</span> -x <span class="token variable">$project_dir</span> <span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token keyword">then</span>
+    <span class="token comment"># 将当前目录权限赋予给用户</span>
+    <span class="token function">chown</span> -R www:www <span class="token variable">$project_dir</span>
+
+    <span class="token comment"># 设置读写权限</span>
+    <span class="token function">chmod</span> -R <span class="token number">755</span> <span class="token variable">$project_dir</span>
+<span class="token keyword">fi</span>
+
+<span class="token builtin class-name">cd</span> <span class="token variable">$project_dir</span>
+
+<span class="token comment"># 判断项目不存在则克隆下来</span>
+<span class="token keyword">if</span> <span class="token punctuation">[</span> <span class="token operator">!</span> -d <span class="token variable">$project_dir</span>/<span class="token variable">$project_name</span> <span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token keyword">then</span>
+    <span class="token comment"># 克隆项目的指定分支到指定项目名</span>
+    <span class="token function">git</span> clone -b <span class="token variable">$git_branch</span> <span class="token variable">$git_url</span> <span class="token variable">$project_name</span>
+<span class="token keyword">fi</span>
+
+<span class="token comment"># 判断项目目录不存在则克隆失败</span>
+<span class="token keyword">if</span> <span class="token punctuation">[</span> <span class="token operator">!</span> -d <span class="token variable">$project_dir</span>/<span class="token variable">$project_name</span> <span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token keyword">then</span>
+    <span class="token builtin class-name">echo</span> <span class="token string">&quot;克隆项目失败&quot;</span>
+    <span class="token builtin class-name">exit</span> <span class="token number">1</span>
+<span class="token keyword">fi</span>
+
+<span class="token comment"># 先cd到我们的项目目录下,git clone的目录</span>
+<span class="token builtin class-name">cd</span> <span class="token variable">$project_dir</span>/<span class="token variable">$project_name</span>
+
+<span class="token comment"># 判断分支是否存在</span>
+<span class="token assign-left variable">branch</span><span class="token operator">=</span><span class="token variable"><span class="token variable">$(</span><span class="token function">git</span> branch <span class="token operator">|</span> <span class="token function">grep</span> $git_branch<span class="token variable">)</span></span>
+<span class="token keyword">if</span> <span class="token punctuation">[</span> <span class="token operator">!</span> -n <span class="token string">&quot;<span class="token variable">$branch</span>&quot;</span> <span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token keyword">then</span>
+    <span class="token builtin class-name">echo</span> <span class="token string">&quot;项目分支<span class="token variable">$git_branch</span>不存在&quot;</span>
+    <span class="token builtin class-name">exit</span> <span class="token number">1</span>
+<span class="token keyword">fi</span>
+
+<span class="token comment"># 从远程下载最新的，而不尝试合并或rebase任何东西</span>
+<span class="token function">git</span> fetch --all
+
+<span class="token comment"># 比较远端和本地分支</span>
+<span class="token assign-left variable">is_up</span><span class="token operator">=</span><span class="token variable"><span class="token variable">$(</span><span class="token function">git</span> <span class="token function">diff</span> $git_branch origin/$git_branch<span class="token variable">)</span></span>
+
+<span class="token comment"># 获取项目克隆时间</span>
+<span class="token assign-left variable">a</span><span class="token operator">=</span><span class="token variable"><span class="token variable">$(</span><span class="token function">stat</span> -c %Y $project_dir/$project_name<span class="token variable">)</span></span>
+<span class="token comment"># 获取当前时间</span>
+<span class="token assign-left variable">b</span><span class="token operator">=</span><span class="token variable"><span class="token variable">$(</span><span class="token function">date</span> +%s<span class="token variable">)</span></span>
+<span class="token comment"># 如果项目克隆时间超过一分钟并且分支没有更新</span>
+<span class="token keyword">if</span> <span class="token punctuation">[</span> <span class="token variable"><span class="token variable">$((</span>$b <span class="token operator">-</span> $a<span class="token variable">))</span></span> -gt <span class="token number">60</span> <span class="token punctuation">]</span> <span class="token operator">&amp;&amp;</span> <span class="token punctuation">[</span> <span class="token operator">!</span> -n <span class="token string">&quot;<span class="token variable">$is_up</span>&quot;</span> <span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token keyword">then</span>
+    <span class="token builtin class-name">echo</span> <span class="token string">&quot;分支<span class="token variable">$git_branch</span>没有更新&quot;</span>
+    <span class="token builtin class-name">exit</span> <span class="token number">1</span>
+<span class="token keyword">fi</span>
+
+<span class="token comment"># reset将主分支重置为您刚刚获取的内容。</span>
+<span class="token comment"># --hard选项更改工作树中的所有文件以匹配origin/&lt;branch_name&gt;中的文件</span>
+<span class="token comment"># 避免脚本执行时修改了本地代码导致pull不下来</span>
+<span class="token function">git</span> reset --hard origin/<span class="token variable">$git_branch</span>
+
+<span class="token comment"># 执行pull命令拉取最新的代码</span>
+<span class="token function">git</span> pull origin <span class="token variable">$git_branch</span>
+
+<span class="token comment"># 安装依赖</span>
+<span class="token function">npm</span> <span class="token function">install</span> -g <span class="token function">yarn</span>
+<span class="token function">yarn</span> <span class="token function">install</span>
+
+<span class="token comment"># 编译</span>
+<span class="token function">yarn</span> build
+
+<span class="token comment"># 切换到编译后静态文件目录</span>
+<span class="token builtin class-name">cd</span> docs
+
+<span class="token comment"># 初始化仓库</span>
+<span class="token function">git</span> init
+
+<span class="token comment"># 设置当前仓库的用户邮箱</span>
+<span class="token function">git</span> config user.email <span class="token string">&quot;<span class="token variable">$push_user_email</span>&quot;</span>
+<span class="token comment"># 设置当前仓库的用户名</span>
+<span class="token function">git</span> config user.name <span class="token string">&quot;push_username&quot;</span>
+
+<span class="token comment"># 把文件添加到暂存区</span>
+<span class="token function">git</span> <span class="token function">add</span> -A
+
+<span class="token comment"># 提交</span>
+<span class="token function">git</span> commit -m <span class="token string">'deploy'</span>
+
+<span class="token comment"># 推送</span>
+
+<span class="token comment"># 检索expect是否安装</span>
+<span class="token assign-left variable">is_expect</span><span class="token operator">=</span><span class="token variable"><span class="token variable">`</span><span class="token function">whereis</span> <span class="token function">expect</span> <span class="token operator">|</span> <span class="token function">awk</span> <span class="token string">'{print <span class="token variable">$2</span>}'</span><span class="token variable">`</span></span>
+<span class="token comment"># 如果没有安装</span>
+<span class="token keyword">if</span> <span class="token punctuation">[</span> <span class="token operator">!</span> -n <span class="token string">&quot;<span class="token variable">$is_expect</span>&quot;</span> <span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token keyword">then</span>
+    yum -y <span class="token function">install</span> <span class="token function">expect</span> <span class="token operator">&gt;</span> /dev/null <span class="token operator"><span class="token file-descriptor important">2</span>&gt;</span><span class="token file-descriptor important">&amp;1</span>
+<span class="token keyword">fi</span>
+
+<span class="token function">expect</span> -c <span class="token string">&quot;
+
+# 超时时间-1为永不超时
+set timeout -1
+
+# spawn将开启一个新的进程，或者使用：ssh <span class="token variable">$user</span>@<span class="token variable">$host</span> {your_command}
+# 只有先进入expect环境后才可执行spawn
+spawn git push -f <span class="token variable">${push_url}</span> master
+
+# 判断运行上述命令的输出结果中是否有指定的字符串(不区分大小写)。
+# 若有则立即返回，否则就等待一段时间后返回，等待时长就是开头设置的timeout。
+# 同时向上面的进程发送字符串, 并且自动敲Enter健(<span class="token entity" title="\r">\r</span>)
+expect {
+  <span class="token entity" title="\&quot;">\&quot;</span>*Username*<span class="token entity" title="\&quot;">\&quot;</span> {send <span class="token entity" title="\&quot;">\&quot;</span><span class="token variable">${push_username}</span><span class="token entity" title="\r">\r</span><span class="token entity" title="\&quot;">\&quot;</span>; exp_continue}
+  <span class="token entity" title="\&quot;">\&quot;</span>*Password*<span class="token entity" title="\&quot;">\&quot;</span> {send <span class="token entity" title="\&quot;">\&quot;</span><span class="token variable">${push_password}</span><span class="token entity" title="\r">\r</span><span class="token entity" title="\&quot;">\&quot;</span>;}
+}
+# 问题回答完毕等待<span class="token variable"><span class="token variable">`</span><span class="token function">expect</span><span class="token variable">`</span></span>进程结束
+expect eof
+&quot;</span>
+
+</code></pre></div></div> <footer class="page-edit" style="display:none;"><div class="edit-link"><a href="https://github.com/woytu/notes-vuepress/edit/master//IDE/GitWebHook.md" target="_blank" rel="noopener noreferrer">在 GitHub 上编辑此页</a> <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></div> <div class="last-updated"><span class="prefix">上次更新: </span> <span class="time">1 分钟前</span></div></footer> <!----> <!----></main> <!----></div></div></div></div><div class="global-ui"><div class="back-to-ceiling" style="right:1rem;bottom:6rem;width:2.5rem;height:2.5rem;border-radius:.25rem;line-height:2.5rem;display:none;" data-v-44bd5a18 data-v-44bd5a18><svg t="1574745035067" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5404" class="icon" data-v-44bd5a18><path d="M526.60727968 10.90185116a27.675 27.675 0 0 0-29.21455937 0c-131.36607665 82.28402758-218.69155461 228.01873535-218.69155402 394.07834331a462.20625001 462.20625001 0 0 0 5.36959153 69.94390903c1.00431239 6.55289093-0.34802892 13.13561351-3.76865779 18.80351572-32.63518765 54.11355614-51.75690182 118.55860487-51.7569018 187.94566865a371.06718723 371.06718723 0 0 0 11.50484808 91.98906777c6.53300375 25.50556257 41.68394495 28.14064038 52.69160883 4.22606766 17.37162448-37.73630017 42.14135425-72.50938081 72.80769204-103.21549295 2.18761121 3.04276886 4.15646224 6.24463696 6.40373557 9.22774369a1871.4375 1871.4375 0 0 0 140.04691725 5.34970492 1866.36093723 1866.36093723 0 0 0 140.04691723-5.34970492c2.24727335-2.98310674 4.21612437-6.18497483 6.3937923-9.2178004 30.66633723 30.70611158 55.4360664 65.4791928 72.80769147 103.21549355 11.00766384 23.91457269 46.15860503 21.27949489 52.69160879-4.22606768a371.15156223 371.15156223 0 0 0 11.514792-91.99901164c0-69.36717486-19.13165746-133.82216804-51.75690182-187.92578088-3.42062944-5.66790279-4.76302748-12.26056868-3.76865837-18.80351632a462.20625001 462.20625001 0 0 0 5.36959269-69.943909c-0.00994388-166.08943902-87.32547796-311.81420293-218.6915546-394.09823051zM605.93803103 357.87693858a93.93749974 93.93749974 0 1 1-187.89594924 6.1e-7 93.93749974 93.93749974 0 0 1 187.89594924-6.1e-7z" p-id="5405" data-v-44bd5a18></path><path d="M429.50777625 765.63860547C429.50777625 803.39355007 466.44236686 1000.39046097 512.00932183 1000.39046097c45.56695499 0 82.4922232-197.00623328 82.5015456-234.7518555 0-37.75494459-36.9345906-68.35043303-82.4922232-68.34111062-45.57627738-0.00932239-82.52019037 30.59548842-82.51086798 68.34111062z" p-id="5406" data-v-44bd5a18></path></svg></div><!----></div></div>
+    <script src="/assets/js/app.882799db.js" defer></script><script src="/assets/js/4.4be05e4b.js" defer></script><script src="/assets/js/1.c0629044.js" defer></script><script src="/assets/js/21.6b80e7c1.js" defer></script><script src="/assets/js/10.cbb2ab2f.js" defer></script>
+  </body>
+</html>
